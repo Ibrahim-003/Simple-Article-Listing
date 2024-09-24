@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Article Listing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <main class="article-list">
+        <header class="article-list__header">
+            <h1 class="article-list__title">We release interesting articles about technology</h1>
+            <img class="article-list__separator" src="./assets/images/Seperator.svg" alt="Separator image">
+        </header>
+        <section class="article-list__content">
+            <article class="article-list__item article">
+                <picture class="article__image-wrapper">
+                    <source media="(max-width: 1023px)" srcset="./assets/images/photo_1.png">
+                    <source media="(min-width: 1024px)" srcset="./assets/images/photo_1@2x.png">
+                    <img class="article__image" src="./assets/images/photo_1.png" alt="Cloud computing illustration">
+                </picture>
+                <div class="article__details">
+                    <h2 class="article__title">Unlocking the Power of Cloud Computing: A Guide to Scalable Solutions
+                    </h2>
+                    <time class="article__date" datetime="2024-11-12">November 12, 2024</time>
+                </div>
+            </article>
+            <article class="article-list__item article">
+                <picture class="article__image-wrapper">
+                    <source media="(max-width: 1023px)" srcset="./assets/images/photo_3.png">
+                    <source media="(min-width: 1024px)" srcset="./assets/images/photo_3@2x.png">
+                    <img class="article__image" src="./assets/images/photo_3.png" alt="AI and machine learning concept">
+                </picture>
+                <div class="article__details">
+                    <h2 class="article__title">The Future of AI: How Machine Learning is Revolutionizing Industries</h2>
+                    <time class="article__date" datetime="2024-11-12">November 12, 2024</time>
+                </div>
+            </article>
+            <article class="article-list__item article">
+                <picture class="article__image-wrapper">
+                    <source media="(max-width: 1023px)" srcset="./assets/images/photo_2.png">
+                    <source media="(min-width: 1024px)" srcset="./assets/images/photo_2@2x.png">
+                    <img class="article__image" src="./assets/images/photo_2.png" alt="5G technology illustration">
+                </picture>
+                <div class="article__details">
+                    <h2 class="article__title">The Impact of 5G on Business: How Faster Networks are Transforming the
+                        Way We Work</h2>
+                    <time class="article__date" datetime="2024-11-12">November 12, 2024</time>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
